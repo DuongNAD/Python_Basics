@@ -5,6 +5,17 @@ Học viên: Nguyễn Anh Dương
 Giảng viên: Thầy Thắng (Thang Dao Manh)
 """
 
+import sys
+
+# Hỗ trợ hiển thị tiếng Việt có dấu chuẩn xác trên console Windows
+if sys.platform.startswith("win"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+        sys.stdin.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
+
 def cau_1():
     """Câu 1: In dòng chữ Hello, Python! và tên của bạn."""
     print("--- CÂU 1: XUẤT DỮ LIỆU CƠ BẢN ---")
