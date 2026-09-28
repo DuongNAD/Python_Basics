@@ -19,12 +19,15 @@ Dự án được quy hoạch theo từng buổi thực hành (`Lab_XX/`) một 
 Python/
 ├── .gitignore                   # Cấu hình bỏ qua cache, virtualenv, file tạm
 ├── README.md                    # Tổng quan repository & mục lục tiến độ học
-└── Lab_01/                      # Buổi 1: Tổng quan, Biến, Kiểu dữ liệu & I/O
-    ├── README.md                # Tóm tắt đề bài, lý thuyết và hướng dẫn chạy
-    └── bai_tap.py               # Toàn bộ code bài tập 1-10 kèm Menu tương tác
+├── Lab_01/                      # Buổi 1: Tổng quan, Biến, Kiểu dữ liệu & I/O
+│   ├── README.md                # Tóm tắt đề bài, lý thuyết và hướng dẫn chạy
+│   └── bai_tap.py               # Toàn bộ code bài tập 1-10 kèm Menu tương tác
+└── Lab_02/                      # Buổi 2: Cấu trúc điều khiển & Cấu trúc dữ liệu
+    ├── README.md                # Tóm tắt 10 bài tập Lab 02
+    └── B1.py -> B10.py          # Code từng bài tập từ B1 đến B10
 ```
 
-*Các buổi học tiếp theo (`Lab_02/`, `Lab_03/`, ...) sẽ tiếp tục được cập nhật theo cấu trúc chuẩn tương tự.*
+*Các buổi học tiếp theo (`Lab_03/`, ...) sẽ tiếp tục được cập nhật theo cấu trúc chuẩn tương tự.*
 
 ---
 
@@ -33,8 +36,8 @@ Python/
 | Buổi / Lab | Chủ Đề Bài Học | Nội Dung Trọng Tâm | Trạng Thái | Link Chi Tiết |
 |:---:|---|---|:---:|:---:|
 | **Lab 01** | Nhập môn Python & Cú pháp cơ bản | Khai báo biến, kiểu dữ liệu (`int`, `float`, `str`, `bool`), nhập xuất `input()` / `print()`, toán tử số học & so sánh | ✅ Hoàn thành | [Xem Lab 01](Lab_01/README.md) |
-| **Lab 02** | Cấu trúc rẽ nhánh & Vòng lặp | `if-elif-else`, vòng lặp `for`, `while`, `break`, `continue` | ⏳ Sắp tới | - |
-| **Lab 03** | Cấu trúc dữ liệu Python | List, Tuple, Set, Dictionary và các phương thức xử lý | ⏳ Sắp tới | - |
+| **Lab 02** | Cấu trúc rẽ nhánh, Vòng lặp & Cấu trúc dữ liệu | `if-elif-else`, vòng lặp `for`, `while`, thao tác List, Tuple, Dictionary, Set | ✅ Hoàn thành | [Xem Lab 02](Lab_02/README.md) |
+| **Lab 03** | Cấu trúc dữ liệu nâng cao | List comprehension, nested structures, sorting nâng cao | ⏳ Sắp tới | - |
 | **Lab 04** | Hàm & Xử lý Ngoại lệ | Định nghĩa hàm (`def`), tham số (`*args`, `**kwargs`), `try-except-finally` | ⏳ Sắp tới | - |
 | **Lab 05** | Thao tác File & Module | Đọc/ghi file (`txt`, `csv`, `json`), import thư viện chuẩn | ⏳ Sắp tới | - |
 | **Lab 06** | Lập trình hướng đối tượng (OOP) | Class, Object, Kế thừa, Đóng gói, Đa hình | ⏳ Sắp tới | - |
